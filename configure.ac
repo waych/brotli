@@ -9,6 +9,6 @@ AC_CONFIG_MACRO_DIR([m4])
 AC_PROG_CC
 LT_INIT
 
-AC_CONFIG_FILES([Makefile scripts/libbrotlicommon.pc scripts/libbrotlidec.pc scripts/libbrotlienc.pc])
+AC_CONFIG_FILES([Makefile scripts/libbrotlidec.pc scripts/libbrotlienc.pc scripts/libbrotlicommon.pc])
 
 AC_OUTPUT
