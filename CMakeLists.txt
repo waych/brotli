@@ -169,7 +169,7 @@ else()
   add_library(brotlienc SHARED ${BROTLI_ENC_C})
 endif()
 
-set(BROTLI_STATIC_LIBS brotlicommon-static brotlidec-static brotlienc-static)
+set(BROTLI_STATIC_LIBS brotlidec-static brotlienc-static brotlicommon-static)
 add_library(brotlicommon-static STATIC ${BROTLI_COMMON_C})
 add_library(brotlidec-static STATIC ${BROTLI_DEC_C})
 add_library(brotlienc-static STATIC ${BROTLI_ENC_C})
