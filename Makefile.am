@@ -30,9 +30,9 @@ libbrotlienc_la_LIBADD = libbrotlicommon.la -lm
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = \
-  scripts/libbrotlicommon.pc \
   scripts/libbrotlidec.pc \
-  scripts/libbrotlienc.pc
+  scripts/libbrotlienc.pc \
+  scripts/libbrotlicommon.pc
 pkgincludedir= $(brotliincludedir)
 
 dist_doc_DATA = README
